@@ -1,0 +1,20 @@
+/* styles/babyMenu.module.css */
+.navbar {
+    background-color: #333;
+}
+
+.nav-item {
+
+    color: #a7af34;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+/* styles/navbar.module.css */
+.navbar {
+    background-color: #333;
+    padding: 0.5rem;
+}
+
+.logo {
+    flex: 3;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.search {
+    flex: 6;
+}
+
+.auth {
+    flex: 3;
+}
