@@ -4,6 +4,7 @@ import BabuMenu from './babyMenu/page'
 import BabuMCarousele from './carousel/page'
 import BabuInputFeild from './babyInputFrom/page'
 import DoctorInfo from './doctorInfo/page'
+import HospitalInfo from './hospitalIfo/page'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <BabuMCarousele />
       <BabuInputFeild />
       <DoctorInfo />
+      <HospitalInfo/>
     </div>
   )
 }
