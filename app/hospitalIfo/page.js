@@ -32,9 +32,9 @@ const HospitalSection = () => {
     ];
 
     return (
-        <div>
-            <h1 className="text-center mb-5 text-2xl underline">Hospital Information</h1>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6">
+        <div className='ps-14 pr-14'>
+            <h1 className="text-center mb-5 text-2xl underline mt-8">Hospital Information</h1>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 {hospitals.map((hospital, index) => (
                     <div key={index} className="bg-white rounded-lg shadow-md hover:shadow-lg transform transition-transform hover:scale-105">
                         <img src="/sliider-img/slide-3.jpg" alt={hospital.name} className="w-full h-48 object-cover rounded-t-lg" />

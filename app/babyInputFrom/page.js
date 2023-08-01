@@ -4,9 +4,9 @@
 const FormSection = () => {
     return (
 
-        <div>
-            <h1 className="text-center mt-10 text-2xl underline">Register Babu</h1>
-            <div className="grid grid-cols-8 gap-6 p-16">
+        <div className="bg-slate-400">
+            <h1 className="text-center mt-8 text-2xl underline">Register Babu</h1>
+            <div className="grid grid-cols-8 gap-6 ps-14 pr-14">
 
                 {/* First Column */}
                 <div className="col-span-8 md:col-span-4">
