@@ -9,7 +9,7 @@ import Footer from './footer/page'
 
 export default function Home() {
   return (
-    <div className=' bg-slate-300'>
+    <div style={{backgroundColor:""}}>
       <Navbar />
       <BabuMenu />
       <BabuMCarousele />

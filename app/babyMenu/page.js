@@ -4,7 +4,7 @@ import styles from '../../styles/babymenu.module.css';
 
 const Navbar = () => {
     return (
-        <nav className={`${styles.navbar} flex items-center justify-around`}>
+        <nav className={`${styles.navbar} flex items-center justify-around`} >
             {/* Nav Items */}
             <Link href="/" passHref>
                 <span className={`${styles['nav-item']} ${styles.active}`}>Newborn</span>

@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const Slider = () => {
     const images = [
-        '/sliider-img/slide-1.jpg', // Replace with the URL or path of your first image
+        '/sliider-img/slide-3.jpg', // Replace with the URL or path of your first image
         '/sliider-img/slide-2.jpg', // Replace with the URL or path of your second image
         '/sliider-img/slide-3.jpg', // Replace with the URL or path of your third image
     ];
@@ -22,7 +22,7 @@ const Slider = () => {
     };
 
     return (
-        <div className="relative " style={{ width: '100%', height: '700px' }}>
+        <div className="relative " style={{ width: '100%', height: '400px' }}>
             <Image
                 src={images[currentImage]}
                 alt={`Image ${currentImage + 1}`}

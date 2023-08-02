@@ -3,7 +3,7 @@ import styles from '../../styles/navbar.module.css';
 
 const Navbar = () => {
     return (
-        <nav className={`${styles.navbar} flex items-center justify-around`}>
+        <nav className={`${styles.navbar} flex items-center justify-around`} style={{ backgroundColor:'#bdb9b5'}}>
             {/* First Column - Logo */}
             <div className={`${styles.logo} flex justify-center items-center `}>
                 Logo
@@ -14,7 +14,7 @@ const Navbar = () => {
                 <form className="relative">
                     <input
                         type="text"
-                        className="w-full px-4 py-2 rounded-full bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full px-4 py-2 rounded-full bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-green-500"
                         placeholder="Search..."
                     />
                     <button
